@@ -67,7 +67,9 @@ section{
     padding: 2em;
     width: 40%;  
 }
-
+td {
+    padding: 23px;
+}
 /*------------------------   classes           ------------------------------ */
 .float_left {
     border: thin solid darkslategray;

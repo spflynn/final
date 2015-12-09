@@ -154,7 +154,7 @@ if (isset($_POST["btnSubmit"])) {
         $errorMsg[] = "Please enter the Artist's name";
         $artistNameERROR = true;
     } elseif (!verifyAlphaNum($artistName)) {
-        $errorMsg[] = "Your last name appears to have an extra character.";
+        $errorMsg[] = "Artist name appears to have an extra character.";
         $artistNameERROR = true;
     }
     if ($tab == ""){
