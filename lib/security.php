@@ -40,6 +40,8 @@ function securityCheck($path_parts, $yourURL, $form = false) {
     $whiteListPages[] = "friday.php";
     $whiteListPages[] = "ERD.pdf";
     $whiteListPages[] = "Schema.pdf";
+    $whiteListPages[] = "form.php"; 
+    $whiteListPages[] = "helpers.php"; 
 //add all the folders to this array
     $whiteListFolders = array();
     $whiteListFolders[] = "/cs148";

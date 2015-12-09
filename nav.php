@@ -13,7 +13,7 @@
         if ($path_parts['filename'] == "tables") {
             print '<li class="activePage">Display Tables</li>';
         } else {
-            print '<li><a href="tables.php">Display Tables</a></li>';
+            print '<li><a href="form.php">Add Song</a></li>';
         }
         
         
